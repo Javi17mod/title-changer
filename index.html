@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cambiar Título con HTML y JavaScript</title>
+<script type="text/javascript">
+function cambiarTitulo() {
+var nuevoTitulo = document.getElementById("tituloInput").value;
+document.title = nuevoTitulo;
+}
+</script>
+</head>
+<body>
+<h1 id="titulo">Título Original</h1>
+<label for="tituloInput">Ingresa Nuevo Título:</label>
+<input type="text" id="tituloInput" />
+<button onclick="cambiarTitulo()">Cambiar Título</button>
+</body>
+</html>
